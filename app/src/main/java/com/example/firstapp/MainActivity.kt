@@ -65,8 +65,32 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_second_layout -> {
                 loadSecond(frag2 = SecondFragment())
             }
-            R.id.nav_Third_layout -> {
+            R.id.nav_third_layout -> {
                 loadThird(frag3 = ThirdFragment())
+            }
+            R.id.nav_service_layout -> {
+                loadService(frag4 = ServiceFragment())
+            }
+            R.id.nav_calculator_layout -> {
+                loadCalculator(frag5 = CalculatorFragment())
+            }
+            R.id.nav_calendar_layout -> {
+                loadCalendar(frag6 = CalendarFragment())
+            }
+            R.id.nav_documents_layout -> {
+                loadDocuments(frag7 = DocumentsFragment())
+            }
+            R.id.nav_report_layout -> {
+                loadReport(frag8 = ReportFragment())
+            }
+            R.id.nav_pays_layout -> {
+                loadPays(frag9 = PaysFragment())
+            }
+            R.id.nav_documentation_layout -> {
+                loadDocumentation(frag10 = DocumentationFragment())
+            }
+            R.id.nav_contacts_layout -> {
+                loadContacts(frag11 = ContactsFragment())
             }
             R.id.nav_share -> {
 
@@ -94,4 +118,45 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         fm.replace(R.id.frameLayout,frag3)
         fm.commit()
     }
+    private fun loadService(frag4:ServiceFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag4)
+        fm.commit()
+    }
+    private fun loadCalculator(frag5:CalculatorFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag5)
+        fm.commit()
+    }
+    private fun loadCalendar(frag6: CalendarFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag6)
+        fm.commit()
+    }
+    private fun loadDocuments(frag7:DocumentsFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag7)
+        fm.commit()
+    }
+    private fun loadReport(frag8:ReportFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag8)
+        fm.commit()
+    }
+    private fun loadPays(frag9:PaysFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag9)
+        fm.commit()
+    }
+    private fun loadDocumentation(frag10:DocumentationFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag10)
+        fm.commit()
+    }
+    private fun loadContacts(frag11:ContactsFragment){
+        val fm =supportFragmentManager.beginTransaction()
+        fm.replace(R.id.frameLayout,frag11)
+        fm.commit()
+    }
+
 }

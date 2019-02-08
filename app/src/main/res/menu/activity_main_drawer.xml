@@ -6,16 +6,48 @@
     <group android:checkableBehavior="single">
         <item
                 android:id="@+id/nav_first_layout"
-                android:icon="@drawable/ic_menu_camera"
-                android:title="First Layout"/>
+
+                android:title="Туркестан"/>
         <item
                 android:id="@+id/nav_second_layout"
-                android:icon="@drawable/ic_menu_gallery"
-                android:title="Second Layout"/>
+
+                android:title="Главная"/>
         <item
-                android:id="@+id/nav_Third_layout"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="Third Layout"/>
+                android:id="@+id/nav_third_layout"
+
+                android:title="Новости"/>
+        <item
+                android:id="@+id/nav_service_layout"
+
+                android:title="Эл. сервисы"/>
+        <item
+                android:id="@+id/nav_calculator_layout"
+
+                android:title="Калькулятор"/>
+        <item
+                android:id="@+id/nav_calendar_layout"
+
+                android:title="Календарь"/>
+        <item
+                android:id="@+id/nav_documents_layout"
+
+                android:title="Документы"/>
+        <item
+                android:id="@+id/nav_report_layout"
+
+                android:title="Отчеты"/>
+        <item
+                android:id="@+id/nav_pays_layout"
+
+                android:title="Платежи"/>
+        <item
+                android:id="@+id/nav_documentation_layout"
+
+                android:title="Справочник"/>
+        <item
+                android:id="@+id/nav_contacts_layout"
+
+                android:title="Контакты"/>
 
     </group>
 
